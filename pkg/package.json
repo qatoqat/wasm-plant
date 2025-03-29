@@ -1,0 +1,21 @@
+{
+  "name": "wasm_plant",
+  "type": "module",
+  "description": "Plant",
+  "version": "0.1.0",
+  "license": "None",
+  "repository": {
+    "type": "git",
+    "url": "None"
+  },
+  "files": [
+    "wasm_plant_bg.wasm",
+    "wasm_plant.js",
+    "wasm_plant.d.ts"
+  ],
+  "main": "wasm_plant.js",
+  "types": "wasm_plant.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
